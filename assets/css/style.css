@@ -1,0 +1,1107 @@
+                                                             * {
+                                                             padding: 0;
+                                                             margin: 0;
+                                                             box-sizing: border-box;
+                                                             font-family: 'Barlow', sans-serif;
+                                                         }
+                                                         
+                                                         ul,
+                                                         ol {
+                                                             list-style-type: none;
+                                                         }
+                                                         
+                                                         a {
+                                                             text-decoration: none;
+                                                         }
+                                                         
+                                                         html {
+                                                             font-size: 62.5%;
+                                                         }
+                                                         /* start style */
+                                                         
+                                                         .wrapper .header__remove {
+                                                             display: none;
+                                                         }
+                                                         
+                                                         .header {
+                                                             padding: 1rem;
+                                                         }
+                                                         
+                                                         .header .header__content {
+                                                             display: flex;
+                                                             justify-content: space-between;
+                                                             align-items: center;
+                                                             padding: 1rem;
+                                                             border-bottom: 1px solid rgb(214, 214, 214);
+                                                         }
+                                                         
+                                                         .header .header__content a {
+                                                             color: rgb(79, 79, 79);
+                                                             font-size: 13px;
+                                                         }
+                                                         
+                                                         .header .header__content .header__left {
+                                                             display: flex;
+                                                             justify-content: space-between;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .header .header__content .header__left .header__item {
+                                                             padding: 0 2rem;
+                                                             border-right: 1px solid rgb(214, 214, 214);
+                                                         }
+                                                         
+                                                         .header .header__content .header__left .header__item:nth-child(2) i {
+                                                             color: rgb(189, 158, 107);
+                                                         }
+                                                         
+                                                         .header .header__content .header__left .header__item:first-child {
+                                                             text-transform: uppercase;
+                                                         }
+                                                         
+                                                         .header .header__content .header__left .header__item:last-child {
+                                                             border-right: none;
+                                                         }
+                                                         
+                                                         .header .header__content .header__right {
+                                                             display: flex;
+                                                             justify-content: space-between;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .header .header__content .header__right .header__item {
+                                                             padding: 0 2rem;
+                                                             border-right: 1px solid rgb(214, 214, 214);
+                                                         }
+                                                         
+                                                         .header .header__content .header__right .header__item:last-child {
+                                                             border-right: none;
+                                                         }
+                                                         
+                                                         .header .header__content .header__right .header__item:last-child i {
+                                                             font-size: 2rem;
+                                                             white-space: nowrap;
+                                                             padding: 0 1rem;
+                                                         }
+                                                         
+                                                         .header .header__content .header__right .header__item:first-child {
+                                                             text-transform: uppercase;
+                                                         }
+                                                         
+                                                         .header .header__content .header__right .header__item:nth-child(2) {
+                                                             text-transform: uppercase;
+                                                         }
+                                                         
+                                                         .header .header__content .header__item:hover a {
+                                                             color: rgb(189, 158, 107);
+                                                         }
+                                                         /* end header */
+                                                         /* start nav */
+                                                         
+                                                         .nav {
+                                                             position: relative;
+                                                             background: #fff;
+                                                             z-index: 1000;
+                                                         }
+                                                         
+                                                         .nav .nav__content {
+                                                             display: flex;
+                                                             justify-content: space-between;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .nav__logo {
+                                                             padding-left: 5rem;
+                                                         }
+                                                         
+                                                         .nav__content .nav__logo img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         
+                                                         .nav .nav__content .nav__menu {
+                                                             display: flex;
+                                                             justify-content: center;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .nav .nav__content .nav__menu a:hover {
+                                                             color: #bd9e6b;
+                                                         }
+                                                         
+                                                         .nav .nav__content .nav__menu a {
+                                                             padding: 10px;
+                                                             font-weight: 600;
+                                                             font-size: 16px;
+                                                             letter-spacing: 1px;
+                                                             color: black;
+                                                         }
+                                                         
+                                                         .nav .nav__content .social {
+                                                             display: flex;
+                                                             align-items: center;
+                                                             justify-content: center;
+                                                             padding-right: 2rem;
+                                                         }
+                                                         
+                                                         .nav .nav__content .social .list-items {
+                                                             padding: 2rem;
+                                                             font-weight: 600;
+                                                             font-size: 16px;
+                                                         }
+                                                         
+                                                         .nav .nav__content .social .list-items a {
+                                                             color: black;
+                                                         }
+                                                         
+                                                         .nav .nav__button {
+                                                             position: absolute;
+                                                             display: none;
+                                                             top: 50%;
+                                                             transform: translateY(-50%);
+                                                             right: 5%;
+                                                         }
+                                                         
+                                                         .nav .nav__button span {
+                                                             width: 20px;
+                                                             height: 2px;
+                                                             display: block;
+                                                             margin-bottom: 4px;
+                                                             border-radius: 10px;
+                                                             background-color: black;
+                                                         }
+                                                         
+                                                         .nav .nav__button span:nth-child(2) {
+                                                             width: 15px;
+                                                         }
+                                                         /* end nav */
+                                                         /* start banner  */
+                                                         
+                                                         .banner {
+                                                             background-image: url(../img/bg-91.jpg);
+                                                             background-position: center;
+                                                             background-size: cover;
+                                                             background-repeat: no-repeat;
+                                                             height: 80vh;
+                                                             display: flex;
+                                                             align-items: center;
+                                                             justify-content: center;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__logo img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__logo {
+                                                             width: 19rem;
+                                                             margin: 0 auto;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__title {
+                                                             font-size: 9rem;
+                                                             font-weight: 900;
+                                                             color: #fff;
+                                                             white-space: nowrap;
+                                                             justify-content: center;
+                                                             margin: 1rem 0 3rem 0;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__button a {
+                                                             font-size: 13px;
+                                                             font-weight: 400;
+                                                             padding: 1rem 3rem;
+                                                             background-color: white;
+                                                             color: black;
+                                                             transition: 0.3s;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__button a:hover {
+                                                             background-color: #9b835f;
+                                                             color: white;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__button {
+                                                             text-align: center;
+                                                         }
+                                                         
+                                                         .banner .wrap {
+                                                             position: relative;
+                                                             color: transparent;
+                                                             /* color transparent giup an dresses content */
+                                                         }
+                                                         
+                                                         .banner .wrap span {
+                                                             position: absolute;
+                                                             opacity: 0;
+                                                             color: #fff;
+                                                             transform-origin: top;
+                                                             transform: rotateX(-90deg);
+                                                             left: 0;
+                                                             transition: 0.5s ease-out;
+                                                         }
+                                                         
+                                                         .banner .banner__content .banner__title .wrap span.active {
+                                                             opacity: 1;
+                                                             transform: rotateX(0);
+                                                         }
+                                                         /* end banner*/
+                                                         /* start collection */
+                                                         
+                                                         .collection {
+                                                             padding: 10rem 0;
+                                                         }
+                                                         
+                                                         .collection .collection__info {
+                                                             text-align: center;
+                                                             width: 100%;
+                                                             padding-bottom: 1.5rem;
+                                                         }
+                                                         
+                                                         .collection .collection__info h2 {
+                                                             font-size: 4.5rem;
+                                                             font-weight: 600;
+                                                         }
+                                                         
+                                                         .collection .owl-carousel {
+                                                             border-radius: 1rem;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .collection .owl-carousel:hover {
+                                                             transform: translate(-5px, -5px);
+                                                             box-shadow: 0px 0px 12px 1px rgba(222, 222, 222, 1);
+                                                         }
+                                                         
+                                                         .collection .owl-carousel {
+                                                             border-radius: 1rem;
+                                                         }
+                                                         
+                                                         .collection .collection__info p {
+                                                             font-size: 16px;
+                                                             color: rgba(0, 0, 0, 0.4);
+                                                             font-weight: 400;
+                                                         }
+                                                         
+                                                         .collection .item {
+                                                             /* border-radius: 1rem;
+        overflow: hidden; */
+                                                         }
+                                                         
+                                                         .collection .item .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                             /* transform: scale(1.01); */
+                                                         }
+                                                         
+                                                         .collection .grid {
+                                                             padding-left: 5px;
+                                                             display: grid;
+                                                             grid-template-columns: 50% 50%;
+                                                             grid-template-rows: 50% 50%;
+                                                             grid-column-gap: 5px;
+                                                             grid-row-gap: 5px;
+                                                         }
+                                                         
+                                                         .collection .card__img {
+                                                             position: relative;
+                                                             border-radius: 1rem;
+                                                             overflow: hidden;
+                                                             transition: 0.7s;
+                                                         }
+                                                         
+                                                         .collection .card__img::before {
+                                                             content: "Summer Hats";
+                                                             position: absolute;
+                                                             top: 5%;
+                                                             font-weight: 400;
+                                                             left: 5%;
+                                                             font-size: 2rem;
+                                                         }
+                                                         
+                                                         .collection .grid .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         
+                                                         .collection .grid .card__img:hover {
+                                                             transform: translate(-5px, -5px);
+                                                         }
+                                                         /* end collection */
+                                                         /* start hits */
+                                                         
+                                                         .hits {}
+                                                         
+                                                         .hits .hits__info {
+                                                             width: 100%;
+                                                             text-align: center;
+                                                             padding-bottom: 3rem;
+                                                         }
+                                                         
+                                                         .hits .hits__info h1 {
+                                                             font-size: 4.5rem;
+                                                             font-weight: 600;
+                                                             padding-bottom: 3rem;
+                                                         }
+                                                         
+                                                         .hits .hits__info p {
+                                                             font-size: 16px;
+                                                             font-weight: 400;
+                                                             color: rgba(0, 0, 0, 0.4);
+                                                         }
+                                                         
+                                                         .hits .card {
+                                                             padding: 2rem;
+                                                         }
+                                                         
+                                                         .hits .card .card__component {}
+                                                         
+                                                         .hits .card .card__component .card__text {
+                                                             padding: 1rem 0;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__text a {
+                                                             padding: 2rem 0;
+                                                             font-weight: 600;
+                                                             font-size: 16px;
+                                                             color: black;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__text a:hover {
+                                                             color: #bd9e6b;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__text p {
+                                                             font-size: 16px;
+                                                             padding: 1rem 0;
+                                                             font-weight: 400;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img {
+                                                             position: relative;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .sold::before {
+                                                             position: absolute;
+                                                             content: "SOLD OUT";
+                                                             padding: 5px 15px;
+                                                             background-color: red;
+                                                             letter-spacing: 2px;
+                                                             font-weight: 400;
+                                                             font-size: 10px;
+                                                             color: white;
+                                                             top: 5%;
+                                                             left: 5%;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img .card__overlay {
+                                                             position: absolute;
+                                                             bottom: 0;
+                                                             width: 100%;
+                                                             height: 100%;
+                                                             overflow: hidden;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img .card__overlay img {
+                                                             display: block;
+                                                             width: 100%;
+                                                             opacity: 0;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img:hover .card__overlay img {
+                                                             opacity: 1;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img .card__overlay .button {
+                                                             position: absolute;
+                                                             bottom: 2%;
+                                                             left: 50%;
+                                                             transform: translateX(-50%);
+                                                             transition: 0.3s;
+                                                             white-space: nowrap;
+                                                             opacity: 0;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img .card__overlay:hover .button {
+                                                             bottom: 5%;
+                                                             opacity: 1;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img .card__overlay .button a {
+                                                             font-size: 15px;
+                                                             color: white;
+                                                             background-color: black;
+                                                             padding: 1rem 5rem;
+                                                         }
+                                                         
+                                                         .hits .card .card__component .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         /* end hits */
+                                                         /* start sun */
+                                                         
+                                                         .sun {
+                                                             background-image: url(../img/bg-92.jpg);
+                                                             height: 80vh;
+                                                             background-size: cover;
+                                                             background-position: center;
+                                                             background-repeat: no-repeat;
+                                                             display: flex;
+                                                             align-items: center;
+                                                             text-align: center;
+                                                         }
+                                                         
+                                                         .sun .sun__info {}
+                                                         
+                                                         .sun .sun__info p {
+                                                             font-size: 13px;
+                                                             font-weight: 600;
+                                                             color: white;
+                                                             padding: 2rem;
+                                                         }
+                                                         
+                                                         .sun .sun__info h1 {
+                                                             font-size: 5rem;
+                                                             font-weight: 600;
+                                                             color: white;
+                                                             padding-bottom: 3rem;
+                                                         }
+                                                         /* #bd9e6b */
+                                                         
+                                                         .sun .sun__info .sun__button {
+                                                             padding: 3rem;
+                                                         }
+                                                         
+                                                         .sun .sun__info .sun__button a {
+                                                             font-size: 13px;
+                                                             padding: 2rem;
+                                                             background-color: white;
+                                                             color: black;
+                                                             white-space: nowrap;
+                                                         }
+                                                         /* end sun */
+                                                         
+                                                         .collection .owl-carousel {
+                                                             border-radius: 1rem;
+                                                             overflow: hidden;
+                                                         }
+                                                         /* start demo */
+                                                         
+                                                         .demo {
+                                                             padding: 2rem;
+                                                         }
+                                                         
+                                                         .demo .demo__info {
+                                                             width: 100%;
+                                                             text-align: center;
+                                                             padding-bottom: 3rem;
+                                                         }
+                                                         
+                                                         .demo .demo__info h1 {
+                                                             font-size: 4.5rem;
+                                                             font-weight: 600;
+                                                             padding-bottom: 3rem;
+                                                         }
+                                                         
+                                                         .demo .card {
+                                                             padding: 2rem;
+                                                         }
+                                                         
+                                                         .demo .card .card__component {}
+                                                         
+                                                         .demo .card .card__component .card__text {
+                                                             padding: 1rem 0;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__text a {
+                                                             padding: 2rem 0;
+                                                             font-weight: 600;
+                                                             font-size: 16px;
+                                                             color: black;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__text a:hover {
+                                                             color: #bd9e6b;
+                                                         }
+                                                         
+                                                         .card .card__component .card__text p {
+                                                             font-size: 16px;
+                                                             padding: 1rem 0;
+                                                             font-weight: 400;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img {
+                                                             position: relative;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .sold::before {
+                                                             position: absolute;
+                                                             content: "SOLD OUT";
+                                                             padding: 5px 15px;
+                                                             background-color: red;
+                                                             letter-spacing: 2px;
+                                                             font-weight: 400;
+                                                             font-size: 10px;
+                                                             color: white;
+                                                             top: 5%;
+                                                             left: 5%;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img .card__overlay {
+                                                             position: absolute;
+                                                             bottom: 0;
+                                                             width: 100%;
+                                                             height: 100%;
+                                                             overflow: hidden;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img .card__overlay img {
+                                                             display: block;
+                                                             width: 100%;
+                                                             opacity: 0;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img:hover .card__overlay img {
+                                                             opacity: 1;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img .card__overlay .button {
+                                                             position: absolute;
+                                                             bottom: 2%;
+                                                             left: 50%;
+                                                             transform: translateX(-50%);
+                                                             transition: 0.3s;
+                                                             white-space: nowrap;
+                                                             opacity: 0;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img .card__overlay:hover .button {
+                                                             bottom: 5%;
+                                                             opacity: 1;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img .card__overlay .button a {
+                                                             font-size: 15px;
+                                                             color: white;
+                                                             background-color: black;
+                                                             padding: 1rem 5rem;
+                                                         }
+                                                         
+                                                         .demo .card .card__component .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         /* end demo */
+                                                         /* start contact */
+                                                         
+                                                         .contact {
+                                                             background-image: url(../img/bg-93.jpg);
+                                                             background-position: center;
+                                                             background-size: cover;
+                                                             height: 40vh;
+                                                             display: flex;
+                                                             justify-content: center;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .contact .contact__info {
+                                                             width: 100%;
+                                                             text-align: center;
+                                                         }
+                                                         
+                                                         .contact .contact__info h1 {
+                                                             color: white;
+                                                             font-size: 4rem;
+                                                             padding: 2rem;
+                                                         }
+                                                         
+                                                         .contact .contact__info .contact__input {
+                                                             border-bottom: 1px solid rgba(160, 160, 160, .658);
+                                                             width: 50%;
+                                                             position: relative;
+                                                             margin: 0 auto;
+                                                         }
+                                                         
+                                                         .contact .contact__info .contact__input input {
+                                                             width: 100%;
+                                                             outline: 0;
+                                                             border: 0;
+                                                             background: 0 0;
+                                                             color: white;
+                                                             font-size: 16px;
+                                                             padding: 15px 0;
+                                                         }
+                                                         
+                                                         .contact .contact__info .contact__input i {
+                                                             position: absolute;
+                                                             color: white;
+                                                             font-size: 2rem;
+                                                             top: 50%;
+                                                             transform: translateY(-50%);
+                                                             cursor: pointer;
+                                                         }
+                                                         
+                                                         .contact .contact__info .contact__input input::placeholder {
+                                                             color: white;
+                                                             font-size: 17px;
+                                                         }
+                                                         /* end contact */
+                                                         /* start policy */
+                                                         
+                                                         .policy {
+                                                             padding: 3rem 0;
+                                                         }
+                                                         
+                                                         .policy .card {
+                                                             margin-bottom: 1rem;
+                                                         }
+                                                         
+                                                         .policy .card .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                         }
+                                                         
+                                                         .policy .card .card__img {
+                                                             width: 45px;
+                                                             margin-right: 10px;
+                                                         }
+                                                         
+                                                         .policy .card {
+                                                             align-items: center;
+                                                             justify-content: center;
+                                                         }
+                                                         
+                                                         .policy .card .card__text h1 {
+                                                             font-size: 16px;
+                                                             font-weight: 700;
+                                                             white-space: nowrap;
+                                                         }
+                                                         
+                                                         .policy .card .card__text p {
+                                                             font-size: 16px;
+                                                             font-weight: 400;
+                                                             color: rgba(0, 0, 0, 0.4);
+                                                             white-space: nowrap;
+                                                         }
+                                                         /* end policy */
+                                                         /* start fashion */
+                                                         
+                                                         .fashion {
+                                                             padding: 2rem 0;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component {
+                                                             position: relative;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component::before {
+                                                             position: absolute;
+                                                             bottom: 5%;
+                                                             left: 5%;
+                                                             content: "15 NOV, 2019";
+                                                             color: white;
+                                                             font-size: 16px;
+                                                             z-index: 5;
+                                                         }
+                                                         
+                                                         .fashion .card__left {
+                                                             overflow: hidden;
+                                                         }
+                                                         
+                                                         .fashion .card__left:hover .card__component .card__img img {
+                                                             transform: scale(1.12);
+                                                             transition: 0.3s;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component .card__text {
+                                                             position: absolute;
+                                                             top: 5%;
+                                                             left: 5%;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component .card__text h1 {
+                                                             font-size: 25px;
+                                                             font-weight: 500;
+                                                             color: #fff;
+                                                             padding: 2rem 0
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component .card__text a {
+                                                             font-size: 15px;
+                                                             padding: 5px 1rem;
+                                                             color: white;
+                                                             font-weight: 400;
+                                                             border: 1px solid rgb(160, 160, 160);
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .fashion .card__left .card__component .card__text a:hover {
+                                                             background-color: #bd9e6b;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component {
+                                                             position: relative;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .right .card__img img {
+                                                             display: block;
+                                                             width: 100%;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .right {
+                                                             width: 50%;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left {
+                                                             width: 50%;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .right:hover .card__img img {
+                                                             transform: scale(1.12);
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .right {
+                                                             overflow: hidden;
+                                                             transition: 0.5s;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left .card__text {
+                                                             padding: 3rem;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left .card__text a {
+                                                             font-size: 15px;
+                                                             padding: 5px 1rem;
+                                                             font-weight: 400;
+                                                             border: 1px solid rgb(160, 160, 160);
+                                                             transition: 0.5s;
+                                                             color: black;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left .card__text a:hover {
+                                                             background-color: #bd9e6b;
+                                                             color: white;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left .card__text h1 {
+                                                             font-size: 20px;
+                                                             font-weight: 600;
+                                                             padding: 2rem 0;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component .left .card__text p {
+                                                             font-size: 16px;
+                                                             font-weight: 300;
+                                                         }
+                                                         
+                                                         .fashion .card__right .card__component::before {
+                                                             position: absolute;
+                                                             bottom: 5%;
+                                                             left: 5%;
+                                                             content: "15 NOV, 2019";
+                                                             color: black;
+                                                             font-size: 16px;
+                                                             z-index: 5;
+                                                         }
+                                                         /* end fashion */
+                                                         
+                                                         .item {
+                                                             background-color: white;
+                                                         }
+                                                         /* picture */
+                                                         
+                                                         .ins {
+                                                             padding: 2rem 0;
+                                                         }
+                                                         
+                                                         .ins .card .card__img img {
+                                                             width: 100%;
+                                                             display: block;
+                                                         }
+                                                         
+                                                         .ins .card {
+                                                             position: relative;
+                                                         }
+                                                         
+                                                         .ins .card .card__overlay {
+                                                             position: absolute;
+                                                             top: 0;
+                                                             left: 0;
+                                                             width: 100%;
+                                                             height: 100%;
+                                                             background-color: rgb(189, 158, 107);
+                                                             justify-content: center;
+                                                             align-items: center;
+                                                             opacity: 0;
+                                                             transition: 0.3s;
+                                                         }
+                                                         
+                                                         .ins .card:hover .card__overlay {
+                                                             opacity: 1;
+                                                         }
+                                                         
+                                                         .ins .card .card__overlay i {
+                                                             font-size: 4rem;
+                                                             color: white;
+                                                         }
+                                                         
+                                                         .ins .container-fluid {
+                                                             padding: 0;
+                                                         }
+                                                         
+                                                         .ins .container-fluid .row {
+                                                             margin: 0;
+                                                         }
+                                                         /* end picture */
+                                                         /* start footer */
+                                                         
+                                                         .footer {
+                                                             padding: 3rem 0;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .title {
+                                                             font-size: 2rem;
+                                                             font-weight: 700;
+                                                             padding: 1rem 0;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .item .produc-sell {
+                                                             padding: 1rem 0;
+                                                             align-items: center;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .item .produc-sell .avata img {
+                                                             width: 100%;
+                                                             display: block;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .item .produc-sell .item__text h3 {
+                                                             font-size: 18px;
+                                                             padding: 1rem 0;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .item .produc-sell .item__text p {
+                                                             font-size: 16px;
+                                                             line-height: 24px;
+                                                             font-weight: 400;
+                                                             color: rgba(0, 0, 0, 0.4);
+                                                         }
+                                                         
+                                                         .footer .card .card__component .item .produc-sell .item__text {
+                                                             padding: 0 2rem;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .menu .list-item {
+                                                             padding: 1rem;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .menu .list-item a {
+                                                             color: #5e5e5e;
+                                                             font-size: 15px;
+                                                             font-weight: 400;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .menu .list-item {
+                                                             margin: 0 auto;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .menu .list-item a:hover {
+                                                             color: #aa9168;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .card__text p {
+                                                             font-size: 16px;
+                                                             line-height: 24px;
+                                                             color: rgba(0, 0, 0, 0.4);
+                                                             font-weight: 400;
+                                                             padding: 2rem 0;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .social i {
+                                                             font-size: 2rem;
+                                                             padding: 0 5px;
+                                                             cursor: pointer;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .social i:hover {
+                                                             color: #aa9168;
+                                                         }
+                                                         
+                                                         .footer .card .card__component .card__logo {
+                                                             display: block;
+                                                             width: 100%;
+                                                             padding: 3rem 0;
+                                                         }
+                                                         
+                                                         .footer .card {
+                                                             margin-bottom: 1rem;
+                                                         }
+                                                         /* end footer */
+                                                         
+                                                         .nav .nav__content .social .list-items i {
+                                                             font-size: 3rem;
+                                                         }
+                                                         /* RP */
+                                                         
+                                                         @media(min-width: 992px) {
+                                                             .fashion .col-lg-6 {
+                                                                 flex-basis: 48%;
+                                                                 max-width: 48%;
+                                                             }
+                                                             @keyframes nav {
+                                                                 from {
+                                                                     transform: translateY(-100%)
+                                                                 }
+                                                                 to {
+                                                                     transform: translateY(0)
+                                                                 }
+                                                             }
+                                                             .fashion .row {
+                                                                 display: flex;
+                                                                 justify-content: space-between;
+                                                             }
+                                                             .wrapper .navactive {
+                                                                 position: fixed;
+                                                                 background-color: rgb(16, 9, 5);
+                                                                 top: 0;
+                                                                 width: 100%;
+                                                                 animation: nav 1s ease-out forwards;
+                                                                 transition: .5s ease-out;
+                                                             }
+                                                             .aactive {
+                                                                 color: white;
+                                                             }
+                                                             .nav .nav__content .social li .iactive {
+                                                                 color: white;
+                                                             }
+                                                         }
+                                                         
+                                                         @media(max-width: 992px) {
+                                                             .nav {
+                                                                 position: fixed;
+                                                                 top: 0;
+                                                                 left: 0;
+                                                                 width: 100%;
+                                                             }
+                                                             .fashion .col-lg-6 {
+                                                                 margin-bottom: 2rem;
+                                                             }
+                                                             .header {
+                                                                 display: none;
+                                                             }
+                                                             .nav .nav__content .social {
+                                                                 display: none;
+                                                             }
+                                                             .nav .nav__content {
+                                                                 flex-direction: column;
+                                                                 align-items: flex-start;
+                                                             }
+                                                             .nav .nav__content .nav__menu {
+                                                                 position: absolute;
+                                                                 top: 100%;
+                                                                 flex-direction: column;
+                                                                 align-items: flex-start;
+                                                                 background-color: white;
+                                                                 width: 100%;
+                                                                 max-height: 0vh;
+                                                                 overflow: hidden;
+                                                                 transition: 0.3s;
+                                                             }
+                                                             .nav .nav__content .nav__menu a {
+                                                                 color: black !important;
+                                                             }
+                                                             .nav .nav__content .showMN {
+                                                                 max-height: 100vh;
+                                                             }
+                                                             .nav__logo {
+                                                                 padding-left: 4rem;
+                                                             }
+                                                             .nav {
+                                                                 padding: 2rem 0;
+                                                                 background-color: rgb(246, 246, 246);
+                                                             }
+                                                             .nav .nav__content .nav__menu .list-items {
+                                                                 padding: 2rem;
+                                                             }
+                                                             .nav .nav__button {
+                                                                 display: block;
+                                                             }
+                                                             .banner {
+                                                                 height: 80vh;
+                                                             }
+                                                             .banner .banner__content .banner__title {
+                                                                 font-size: 6rem;
+                                                             }
+                                                             @media(max-width: 768px) {}
+                                                             @media(max-width: 535px) {
+                                                                 .banner {
+                                                                     height: 50vh;
+                                                                 }
+                                                                 .banner .banner__content .banner__title {
+                                                                     font-size: 4rem;
+                                                                 }
+                                                                 .banner .banner__info .banner__title {
+                                                                     font-size: 5rem;
+                                                                     /* color: #fff; */
+                                                                     /* font-weight: 600; */
+                                                                     /* margin-bottom: 5rem; */
+                                                                 }
+                                                                 .collection .collection__info h2 {
+                                                                     font-size: 3.5rem;
+                                                                 }
+                                                                 .collection .owl-carousel {
+                                                                     padding-bottom: 1rem;
+                                                                 }
+                                                                 .sun {
+                                                                     height: 50vh;
+                                                                 }
+                                                                 .sun .sun__info h1 {
+                                                                     font-size: 4rem;
+                                                                 }
+                                                                 .contact .contact__info h1 {
+                                                                     /* color: white; */
+                                                                     font-size: 2rem;
+                                                                     /* padding: 2rem; */
+                                                                 }
+                                                                 .demo .card {
+                                                                     padding: 0rem;
+                                                                 }
+                                                                 .fashion .card__right .card__component .left .card__text h1 {
+                                                                     font-size: 14px;
+                                                                 }
+                                                                 .fashion .card__right .card__component .left .card__text p {
+                                                                     font-size: 11px;
+                                                                     /* font-weight: 300; */
+                                                                 }
+                                                                 .fashion .card__right .card__component .left .card__text {
+                                                                     padding: 1rem;
+                                                                 }
+                                                                 .fashion .card__right .card__component .left .card__text h1 {
+                                                                     padding: 1rem 0;
+                                                                 }
+                                                                 .fashion .card__left .card__component .card__text h1 {
+                                                                     font-size: 13px;
+                                                                 }
+                                                                 .sun .sun__info h1 {
+                                                                     font-size: 2rem;
+                                                                 }
+                                                                 .demo .demo__info h1 {
+                                                                     padding-bottom: 3rem;
+                                                                 }
+                                                                 .hits .hits__info h1 {
+                                                                     font-size: 3.5rem;
+                                                                     /* font-weight: 600; */
+                                                                     /* padding-bottom: 3rem; */
+                                                                 }
+                                                             }
+                                                             @media(max-width: 320px) {}
